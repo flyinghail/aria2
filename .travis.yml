@@ -50,6 +50,6 @@ script:
 deploy:
   provider: releases
   api_key: "$GH_TOKEN"
-  file: "/home/travis/build/agalwood/aria2/*"
+  file: "/home/travis/build/flyinghail/aria2/*"
   skip_cleanup: true
   draft: true
